@@ -1,0 +1,144 @@
+/**
+  * @author: Guo You And Tianyang Chen
+  * @desc: CSS Styling Used In This Web Application
+*/
+
+/**
+  * @desc: Common CSS Styling used for all Background
+*/
+.background {
+    background-size: 100vw 100vh;
+    width: 100% !important;
+    margin: 0%;
+    padding: 0%;
+}
+
+/**
+  * @desc: Background Image used in the page listing itineraries
+*/
+.background-itinerary {
+    background: url(../img/itinerary_background.jpg);
+    background-repeat: round;
+    height: 100vh;
+}
+
+/**
+  * @desc: Background Image used in the castle info page
+*/
+.background-info ,.aaa{
+    background: url(../img/info_image.png);
+    background-repeat: round;
+    height: 350vh;
+}
+
+
+/**
+  * @desc: Background Image used in the home page
+*/
+.background-home {
+    background: url(../img/castle_opacity.png);
+    background-repeat: repeat;
+    height: 100vh;
+    position: fixed;
+    left: 0vmin; 
+    top: 0vmin; 
+}
+
+.background-login {
+    background: url(../img/castle_login.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.card {
+    width: 50%;
+    height: 50%;
+}
+
+.heading-style {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: brown;
+}
+
+.headerName{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5vmin;
+    color: #2e0106;
+    margin-right: 0.5vw;
+}
+
+.headerTab{
+    display: inline-flex;
+    width: 100%;
+}
+
+.headerPills{
+    text-align: right;
+    margin-top: 1.5vh;
+}
+
+.headerLogo{
+    display: inline-flex;
+    text-align: left;
+}
+
+.headerHome {
+    font-family: 'Lobster', cursive;
+    font-size: 4vmin;
+    color: #2e0106;
+    cursor: pointer;
+    margin-left: 2vw; 
+    display: inline;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+.align-center {
+    text-align: center !important;
+}
+
+.tagStyle {
+    font-family: 'Bangers', cursive;
+    font-size: 6vmin;
+    color: #2e0106;
+}
+
+.itineraryCardHeader{
+    display: inline-flex;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vmin;
+}
+
+.overflow-scroll {
+    overflow-y: scroll;
+    height: 44vh;
+}
+
+.itineraryHeader {
+    font-family: 'Bangers', cursive;
+    font-size: 4vmin;
+    color: #2e0106;
+    margin-bottom: 0vh;
+    padding-bottom: 0vh;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: 'Lobster', cursive;
+    font-size: 6vmin;
+  }
